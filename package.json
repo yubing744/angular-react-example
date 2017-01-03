@@ -1,0 +1,67 @@
+{
+  "name": "angular-react-example",
+  "version": "0.1.0",
+  "description": "Angular + React Build Project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "karma start",
+    "debug": "build_debug.sh",
+    "release": "build_release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yubing744/angular-react-example.git"
+  },
+  "keywords": [
+    "angular",
+    "react"
+  ],
+  "author": "yubing744",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yubing744/angular-react-example/issues"
+  },
+  "homepage": "https://github.com/yubing744/angular-react-example#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "es6-promise": "^3.2.1",
+    "eslint": "^3.4.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-react": "^6.2.0",
+    "exports-loader": "^0.6.3",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "imports-loader": "^0.6.5",
+    "isparta": "^4.0.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.15.0",
+    "transfer-webpack-plugin": "^0.1.4"
+  },
+  "dependencies": {
+    "angular-kernel": "^0.1.4",
+    "events": "^1.1.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-layout": "^1.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^3.0.0",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  }
+}
